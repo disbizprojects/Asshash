@@ -28,6 +28,16 @@ const Footer = ({ color = "bg-[#18332A]" }) => {
                 <FaSquareXTwitter className="text-2xl hover:opacity-80" />
               </a>
             </div>
+            {/* Address */}
+            <div className="text-sm text-gray-200 mb-3">
+              <p>28/22, Rajbari, Savar, Dhaka</p>
+            </div>
+
+            {/* Trade License */}
+            <div className="text-sm text-gray-200">
+              <p className="font-semibold">Trade License Number</p>
+              <p>20252628006023734</p>
+            </div>
           </div>
 
           {/* Middle Section: Privacy Policy */}
