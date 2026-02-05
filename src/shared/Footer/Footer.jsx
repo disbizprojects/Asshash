@@ -104,6 +104,18 @@ const Footer = ({ color = "bg-[#18332A]" }) => {
             </ul>
           </div>
         </footer>
+
+        {/* SSL Badge */}
+        <div className="flex justify-center py-12 border-t border-gray-700 w-full">
+          <a
+            href="https://sslcommerz.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:opacity-80 transition-opacity w-full flex justify-center"
+          >
+            <img src="/ssl.png" alt="SSL Certificate" className="h-80 w-full object-contain" />
+          </a>
+        </div>
       </div>
     </div>
   );
