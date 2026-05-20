@@ -41,65 +41,18 @@ const Footer = ({ color = "bg-[#18332A]" }) => {
           </div>
 
           {/* Middle Section: Privacy Policy */}
-          <div className="text-left">
+          <div className="text-left md:col-span-2 lg:col-span-1">
             <h4 className="font-semibold mb-3">Privacy Policy</h4>
-            <ul className="space-y-1 text-sm text-gray-200">
+            <ul className="space-y-2 text-sm text-gray-200">
               <li>
-                <a href="#" className="hover:underline">
-                  Introduction & Scope
-                </a>
+                <Link to="/privacy-policy/patient" className="hover:underline">
+                  Patient App Privacy Policy
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:underline">
-                  Data Collection
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  How Data is Used
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Data Sharing & Disclosure
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Data Security
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          {/* Right Section: Terms */}
-          <div className="text-left">
-            <h4 className="font-semibold mb-3">Terms</h4>
-            <ul className="space-y-1 text-sm text-gray-200">
-              <li>
-                <a href="#" className="hover:underline">
-                  Introduction & Scope
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Data Collection
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  How Data is Used
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Data Sharing & Disclosure
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Data Security
-                </a>
+                <Link to="/privacy-policy/doctor" className="hover:underline">
+                  Doctor App Privacy Policy
+                </Link>
               </li>
             </ul>
           </div>
